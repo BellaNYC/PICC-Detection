@@ -12,7 +12,7 @@ We collected de-identified HIPAA-compliant (Health Insurance Portability and Acc
 
 ## Methods
 1. Semantic segmentation: FCN, first decompress to capture features and then up sampling to recover spatial information lost in down sampling step
-2. 
+2. Object detection
 
 ## Directory and file
 data --original images and binary segmentation label file, txt file to record the data used for training
@@ -27,3 +27,4 @@ lanenet_data_feed_pipline --feed data and generate tf records
 ### References:
 https://towardsdatascience.com/semantic-segmentation-popular-architectures-dff0a75f39d0
 <br>
+https://www.jeremyjordan.me/semantic-segmentation/
