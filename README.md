@@ -2,6 +2,7 @@
 
 ## Introduction
 Peripherally Inserted Central Catheter (PICC) is a soft, thin, flexible tube, providing intravenous access and giving treatment. Malposition of tips (with 5-31% incidence) can result in discomfort and pain to patients, and even induce life-threatening complications, such as cardiac arrhythmia. Although the error rate of radiologists analyzing tip location is low, a limited number of experts and high volume of images lead to delays in treatment initiation
+
 <br>
 Our goal is to help radiologists improve speed and quality of detecting and make sure PICC position is in the right place.
 
@@ -20,7 +21,10 @@ Finally got 600 images labeled in total.
 4. Object detection
 
 ## Training
-Using stochastic gradient descent (SGD), we chose 0.001 as learning rate and used polynomial decay with power 0.9. the epoch is 80,000.
+Using stochastic gradient descent (SGD), we chose 0.001 as learning rate and used polynomial decay with power 0.9. the epoch is 80,000
+
+## Evaluation
+Mean IU score is 0.53, when the score is more than 0.5, it always considered a “good” prediction
 
 ## Directory and file
 data --original images and binary segmentation label file, txt file to record the data used for training
