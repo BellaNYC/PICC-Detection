@@ -37,6 +37,12 @@ lanenet_data_feed_pipline --feed data and generate tf records
 
 
 ### References:
+https://github.com/MaybeShewill-CV/lanenet-lane-detection
+<br>
+https://github.com/divamgupta/image-segmentation-keras
+<br>
+https://divamgupta.com/image-segmentation/2019/06/06/deep-learning-semantic-segmentation-keras.html
+<br>
 https://towardsdatascience.com/semantic-segmentation-popular-architectures-dff0a75f39d0
 <br>
 https://www.jeremyjordan.me/semantic-segmentation/
