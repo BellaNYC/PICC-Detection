@@ -16,8 +16,9 @@ Finally got 600 images labeled in total.
 
 ## Methods
 1. Transfer learning
-2. Loss function: standard cross-entropy on eahc pixel
-3. Semantic segmentation: FCN, first decompress to capture features and then up sampling to recover spatial information lost in down sampling step
+2. Loss function: Pixel-wise cross-entropy on eahc pixel
+3. Base model: VGG16
+4. Semantic segmentation model: FCN, first decompress to capture features and then up sampling to recover spatial information lost in down sampling step
 4. Object detection
 
 
