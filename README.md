@@ -19,6 +19,8 @@ Finally got 600 images labeled in total.
 4. Semantic segmentation model: FCN, first decompress to capture features and then up sampling to recover spatial information lost in down sampling step
 4. Object detection
 
+## Training
+Using stochastic gradient descent (SGD), we chose 0.001 as learning rate and used polynomial decay with power 0.9. the epoch is 80,000.
 
 ## Directory and file
 data --original images and binary segmentation label file, txt file to record the data used for training
