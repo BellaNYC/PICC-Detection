@@ -2,13 +2,11 @@
 
 ## Introduction
 Peripherally Inserted Central Catheter (PICC) is a soft, thin, flexible tube, providing intravenous access and giving treatment. Malposition of tips (with 5-31% incidence) can result in discomfort and pain to patients, and even induce life-threatening complications, such as cardiac arrhythmia. Although the error rate of radiologists analyzing tip location is low, a limited number of experts and high volume of images lead to delays in treatment initiation
-
 <br>
-
 Our goal is to help radiologists improve speed and quality of detecting and make sure PICC position is in the right place.
 
 ## Dataset
-We collected de-identified HIPAA-compliant (Health Insurance Portability and Accountability Act) DICOM dataset that contain PICCs that obtained from NYU Langone Hospital. All images are unlabeled, we used basic ROI draw function in OsiriX to label the ground truth of PICC and box (safe window)
+We collected de-identified HIPAA-compliant (Health Insurance Portability and Accountability Act) DICOM dataset that contain PICCs that obtained from NYU Langone Hospital. All images are unlabeled, we used basic ROI draw function in OsiriX to label the ground truth of PICC and box (safe window), then generated JSON (JavaScript Object Notation) files, which later used to convert COCO format.
 <br>
 For segmentation maps, we used png format. Input image and segmentation image size are both 1024 * 1024 
 <br>
