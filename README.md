@@ -11,8 +11,11 @@ Our goal is to help radiologists improve speed and quality of detecting and make
 We collected de-identified HIPAA-compliant (Health Insurance Portability and Accountability Act) DICOM dataset that contain PICCs that obtained from NYU Langone Hospital. All images are unlabeled, we used basic ROI draw function in OsiriX to label the ground truth of PICC and box (safe window), finally got 600 images labeled in total.
 
 ## Methods
-1. Semantic segmentation: FCN, first decompress to capture features and then up sampling to recover spatial information lost in down sampling step
-2. Object detection
+1. Transfer learning
+2. Loss function: standard cross-entropy on eahc pixel
+3. Semantic segmentation: FCN, first decompress to capture features and then up sampling to recover spatial information lost in down sampling step
+4. Object detection
+
 
 ## Directory and file
 data --original images and binary segmentation label file, txt file to record the data used for training
